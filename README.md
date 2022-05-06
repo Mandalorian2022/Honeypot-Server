@@ -29,7 +29,7 @@ After mhn-admin, it was time to setup my first honeypot VM in cloud. [Dionaea Ho
 
 ### Database Backup
 
-**Summary:** After detecting this many attacks in short period of time I decided to capture and analyze different IP addresses by implmenting a listening session on mhn-admin server and then I was able to extract 5.2 MB of ```.json``` data file from ```mhn-admin server``. I found this method useful for analysing multiple honeypot sensor and payloads. Since I wanted to only study the payloads sent by attackers, I only had one honepot server up and running. 
+**Summary:** After detecting this many attacks in short period of time I decided to capture and analyze different IP addresses by implmenting a listening session on mhn-admin server and then I was able to extract 5.2 MB of ```.json``` data file from ```mhn-admin server```. I found this method useful for analysing multiple honeypot sensor and payloads. Since I wanted to only study the payloads sent by attackers, I only had one honepot server up and running. 
 
 ![Faraji_httop](https://user-images.githubusercontent.com/96266650/167225545-f3f36105-7415-4a4d-96f4-5b28a393589f.gif)
 > I used ```htop``` to monitor the admin server to make sure I am the only authenticated user. Just in case!
@@ -45,12 +45,15 @@ After mhn-admin, it was time to setup my first honeypot VM in cloud. [Dionaea Ho
 
 The most common payload was [Wannacry](https://www.cisa.gov/uscert/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf) ransomware.
 
-MD5 Hash: *a438e69ddcd602a27a400e6b4e626369*
+MD5 Hash: 
+*a438e69ddcd602a27a400e6b4e626369*
 
 SHA521 Hash: *a531d5e03e8b0c03799c4c6b3387d8cef66cc59f1e98c193b395ad5ecab706458f2d20b9d008b6b7f21ee3429e1c6e52d7cf5c496a37740330beaedc99f68228*
 
-<img src="x-malware.gif">
+
+![x-malware](https://user-images.githubusercontent.com/96266650/167227816-f6358da3-a64a-4635-a398-f896febebb4e.gif)
+
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
+This project helped me alot with undrestanding the real world cyberattacks and how honeypot can be usefull in Malware analysis.
